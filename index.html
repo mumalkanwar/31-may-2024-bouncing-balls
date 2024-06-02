@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+           .comn{
+            display:block;
+            float: left;
+            width:200px;
+            height:200px;
+            
+            border:10px solid #000;
+            color:#fff;
+            text-align: center;
+            line-height: 200px;
+            font-size:2em;
+            border-radius:150px;
+            animation-name:bouncing;
+            animation-duration:6s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function:ease-in;
+         }
+            @keyframes bouncing{
+                from{
+                     transform:translate(0px,0px);
+                    }
+                to{
+                    transform:translate(0px,600px);
+                }
+            }
+           .a{
+            background-color: rebeccapurple;
+           }
+           .b{
+            animation-delay:1s;
+            background-color:CadetBlue;
+           }
+           .c{
+            animation-delay: 2s;
+            background-color:Chocolate;
+           }
+           .d{
+            animation-delay:3s;
+            background-color:Crimson;
+           }
+           .e{
+            animation-delay: 4s;
+            background-color:#A52A2A;
+           }
+           .f{
+            animation-delay: 5s;
+            background-color: #00008B;
+           }
+           
+    </style>
+    <title>Bouncig Ball Assignment in css3</title>
+</head>
+<body>
+    <div class="comn a">A</div>
+    <div class="comn b">B</div>
+    <span class="comn c">C</span>
+    <span class="comn d">D</span>
+    <span class="comn e">E</span>
+    <span class="comn f">F</span>
+</body>
+</html>
